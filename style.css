@@ -1,0 +1,24 @@
+/* Apply styles to the whole document */
+body {
+  background-color: blue;
+}
+
+/* Anything inside of the curlies will be applied ONLY to the element with an ID attribute of "website-title" */
+#website-title {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 45px;
+}
+
+.animated-divs {
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+  margin-top: 20px;
+}
+
+.animated-divs:hover {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(360deg);
+}
